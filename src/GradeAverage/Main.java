@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         // declare variables
-        int mathematic, physice, chemical, turkish, history, music, total;
+        int mathematic, physice, chemical, turkish, history, music;
+        double total;
         String result;
 
         // declare Scanner class
@@ -32,7 +33,7 @@ public class Main {
         music = input.nextInt();
 
         total = (mathematic + physice + chemical + turkish + history + music);
-        result = (total > 60) ? "Sınıfı Geçti" : "Sınıfta Kaldı";
+        result = ((total/6) > 60) ? "Sınıfı Geçti" : "Sınıfta Kaldı";
 
         System.out.print(result);
     }
