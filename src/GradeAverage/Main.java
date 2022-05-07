@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-    	// Merge at
+    	// Merge için
         // declare variables
         int mathematic, physice, chemical, turkish, history, music, total;
         String result;
